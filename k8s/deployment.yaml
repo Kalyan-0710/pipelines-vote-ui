@@ -19,7 +19,7 @@ spec:
           imagePullPolicy: Always
           name: pipelines-vote-ui
           ports:
-            - containerPort: 8080
+            - containerPort: 8085
               protocol: TCP
             - containerPort: 9090
               protocol: TCP
