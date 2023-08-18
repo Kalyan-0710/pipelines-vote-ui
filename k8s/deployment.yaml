@@ -21,7 +21,7 @@ spec:
           ports:
             - containerPort: 8085
               protocol: TCP
-            - containerPort: 9090
+            - containerPort: 9091
               protocol: TCP
           env:
             - name: VOTING_API_SERVICE_HOST
